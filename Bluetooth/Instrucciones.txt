@@ -1,0 +1,7 @@
+PARA WINDOWS:
+
+Copiar los archivos "rxtxParallel.dll" y "rxtxSerial.dll" a %Carpeta de Processing%/java/bin y sustituirlos por los originales.
+
+PARA LINUX: 
+
+Todavía no he encontrado el archivo correspondiente para la versión en Linux. Si alguien la tiene me puede enviar un correo a karlospv94@gmail.com y la publicaré
