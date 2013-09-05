@@ -1,0 +1,30 @@
+/*
+  Librería para controlar dos motores
+  con un integrado L293D.
+  Creado por Carlos Millán Soler, 02/09/13.
+  Dominio público - Software Libre
+*/
+
+
+Copiar la carpeta "BiMotor" a: %Ruta de instalación de Arduino%/libraries
+
+Windows -- C:/Archivos de programa/arduino/libraries
+Linux -- /usr/share/arduino/libraries
+
+Importar la librería "BiMotor" a tu programa Arduino para utilizar las siguientes funciones:
+			-adelante() / adelante(velocidad)
+			-atras() / atras(velocidad)
+			-derecha() / derecha(velocidad)
+			-izquierda() / izquierda(velocidad)
+
+La velocidad se puede variar de 0(0V) - 255(Voltaje alimentación)
+
+Crear un objeto de la librería:
+	BiMotor objeto(izqNegativo,izqPositivo,derNegativo,derPositivo)
+Donde:
+-izqNegativo: pin conectado al Arduino para controlar la parte negativa del motor izquierdo
+-izqPositivo: pin conectado al Arduino para controlar la parte positiva del motor izquierdo
+-derNegativo: pin conectado al Arduino para controlar la parte negativa del motor derecho
+-derPositivo: pin conectado al Arduino para controlar la parte positiva del motor derecho
+
+Aviso.: Si los motores no se conectan a pines PWM del Arduino, no se podrá variar la velocidad de cada método
