@@ -1,0 +1,6 @@
+BiMotor	KEYWORD1
+adelante	KEYWORD2
+atras	KEYWORD2
+derecha	KEYWORD2
+izquierda	KEYWORD2
+parar	KEYWORD2
